@@ -1,0 +1,17 @@
+09.05.2017
+- Quadro de atividades do Dia
+- Aniversariantes
+- Painel de Contratos
+- Próximos Jogos
+- Últimos Jogos
+
+08.05.2017
+- listagem de jogadores por categorias;
+- listagem de jogadores no DM;
+- listagem de jogadores emprestados;
+
+
+===========================================================================================
+Pequenos acertos
+- na listagem de jogadores por categoria, alinhar as colunas pelo lado esquerdo;
+- la listagem de jogadores por categoria, centralizar a tabela;

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/Categorias.php" charset="US-ASCII" />
+    <file url="file://$PROJECT_DIR$/app/Http/Controllers/CategoriasController.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/Log.php" charset="US-ASCII" />
+    <file url="file://$PROJECT_DIR$/resources/views/categorias/assistencia_social.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/categorias/concentracoes.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/categorias/ocorrencias.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/categorias/pedagogia.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/categorias/prep_fisica.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/categorias/qts.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/footer.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/log/departamentos_acessos.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/log/departamentos_unicos.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/log/total_mes.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/log/usuarios_acessos.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/log/usuarios_acessos_g.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/log/usuarios_acessos_ok.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/log/usuarios_mes.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/log/usuarios_unicos.blade.php" charset="UTF-8" />
+  </component>
+</project>
