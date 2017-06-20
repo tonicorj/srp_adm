@@ -7,21 +7,22 @@
 }
 
 .panel-clube {
-    /* Palmeiras */
-    border-color: #605CA8;
+    /* Bahia */
+    border-color: #0073b7;
 }
 
 .panel-clube > .panel-heading {
     color: #ffffff;
-    /* Palmeiras */
-    background-color: #605CA8;
-    border-color: #605CA8;
+    /* Bahia */
+    background-color: #0073b7;
+    border-color: #0073b7;
 }
 
 .bg-clube-active,
 .modal-danger .modal-header,
 .modal-danger .modal-footer {
-    /* Palmeiras */
-    background-color: #605CA8 !important;
+    /* Bahia */
+    background-color: #0073b7 !important;
     color: #ffffff;
+
 }

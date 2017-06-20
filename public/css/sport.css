@@ -1,0 +1,42 @@
+.cartoes {
+    margin-top:10px;
+    border: #cdcdcd medium solid;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.panel-clube {
+    /* Palmeiras
+    border-color: #008d4c;
+    */
+    /* Sport */
+    border-color: #902b2b;
+    color: #ffffff;
+}
+
+.panel-clube > .panel-heading {
+    color: #ffffff;
+    /* Palmeiras
+    background-color: #008d4c;
+    border-color: #008d4c;
+    */
+
+    /* Sport */
+    background-color: #902b2b;
+    border-color: #902b2b;
+
+}
+
+.bg-clube-active,
+.modal-danger .modal-header,
+.modal-danger .modal-footer {
+    /* Sport */
+    background-color: #902b2b !important;
+    color: #ffffff;
+
+    /* Palmeiras
+    background-color: #008d4c !important;
+    color: #ffffff;
+    */
+}

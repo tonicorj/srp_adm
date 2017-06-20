@@ -8,20 +8,21 @@
 
 .panel-clube {
     /* Palmeiras */
-    border-color: #605CA8;
+    border-color: #00A65A;
 }
 
 .panel-clube > .panel-heading {
     color: #ffffff;
     /* Palmeiras */
-    background-color: #605CA8;
-    border-color: #605CA8;
+    background-color: #00A65A;
+    border-color: #00A65A;
 }
 
 .bg-clube-active,
 .modal-danger .modal-header,
 .modal-danger .modal-footer {
     /* Palmeiras */
-    background-color: #605CA8 !important;
+    background-color: #00A65A !important;
     color: #ffffff;
+
 }

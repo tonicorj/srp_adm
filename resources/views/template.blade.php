@@ -20,10 +20,22 @@
          folder instead of downloading all of them to reduce the load.
     <link rel="stylesheet" href="{{ URL::asset('dist/css/skins/skin-black.css') }}">
     -->
-    <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}">
+    <!-- Palmeiras -->
+    @if(Auth::user()->cliente() == 2))
+        <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}">
+    @endif
+
+    <!-- Palmeiras -->
+    @if(Auth::user()->cliente() == 7))
+        <link rel="stylesheet" href="{{ URL::asset('css/palmeiras.css') }}">
+    @endif
+
+    <!-- Sport -->
+    @if(Auth::user()->cliente() == 21))
+        <link rel="stylesheet" href="{{ URL::asset('css/sport.css') }}">
+    @endif
+
     <link rel="stylesheet" href="{{ URL::asset('dist/css/skins/_all-skins.min.css') }}">
-
-
 
     <!-- jQuery 2.2.3 -->
     <script src="{{ URL::asset('plugins/jQuery/jquery-2.2.3.min.js')}}"></script>
@@ -61,7 +73,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body class="hold-transition skin-green-light sidebar-mini">
+<body class="hold-transition sidebar-mini {{ Auth::user()->skin() }} skin-blue">
 <div class="wrapper">
 
     <header class="main-header bg-clube-active">
@@ -169,7 +181,7 @@
         <section class="sidebar">
             <div class="user-panel">
                 <div class="pull-left image">
-                    <img src="{!! asset('imagens/logo.bmp') !!}" class="img-circle" alt="Cliente">
+                    <img src="{{ Auth::user()->logoCliente() }}" class="img-circle" alt="Cliente">
                 </div>
                 <div class="pull-left info">
                     <p>{{ Auth::user()->name }}</p>

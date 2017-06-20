@@ -337,8 +337,9 @@
                     <!-- /.box-body -->
                 </div>
                 <!-- /.box -->
-            </div>
+                </div>
             <!-- /.col-lg-8 -->
+            </div>
         </div>
     </section>
 
@@ -863,10 +864,12 @@
     <!-- /. Menu -->
 </div>
 <script>
-
     var opt = {
         title:{
             display:false
+        },
+        toolTip:{
+            content: "{name}: {y}"
         },
         scales: {
             yAxes: [{

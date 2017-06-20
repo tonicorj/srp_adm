@@ -23,7 +23,6 @@ Route::controllers([
 Route::get('/home', 'HomeController@index');
 Route::get('/'    , 'HomeController@index');
 
-//Route::get('/'    , 'DashboardController@index');
 
 Route::group(['prefix'=>'dashboard', 'middleware' => 'auth'], function(){
     Route::get ('/'                     , ['as' => 'dashboard.index'                  , 'uses' =>'DashboardController@index'      ]);
