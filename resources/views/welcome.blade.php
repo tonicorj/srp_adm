@@ -377,8 +377,8 @@
         </section>
         <!-- /. graficos -->
     </div>
-    <script>
 
+    <script>
         var opt = {
             title:{
                 display:false

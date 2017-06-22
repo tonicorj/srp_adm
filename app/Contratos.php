@@ -88,14 +88,11 @@ class Contratos extends Model
         $ano = Auth::user()['config']->ano;
         $mes = Auth::user()['config']->mes;
 
-        $_sql = "SELECT ";
-        $_sql .= "  T_VL_SIMPLES = SUM( A.CONT_VL_SALARIO ) + SUM( A.CONT_VL_DIREITO_IMAGEM	) ";
-        $_sql .= "   FROM CONTRATOS_PAGAMENTOS2 A ";
-        $_sql .= "   INNER JOIN ELENCO          B ON A.ID_JOGADOR = B.ID_JOGADOR ";
-        $_sql .= "  WHERE YEAR (A.CONT_DT_PAGAMENTO) = " . $ano;
-        $_sql .= "    AND MONTH(A.CONT_DT_PAGAMENTO) = " . $mes;
-        $_sql .= "    AND B.ELENCO_STATUS <> 'N' ";
-        $_sql .= "    AND B.ID_CATEGORIA = " . $id_categoria ;
+        $_sql = "select T_VL_SIMPLES = sum( VL_TOTAL_SIMPLES ) ";
+        $_sql .= " from F_CONTRATOS_ATIVOS( " . $ano . "," . $mes . ") a";
+        $_sql .= " left join posicao b on a.jog_posicao = b.posicao ";
+        $_sql .= " where a.id_categoria = " . $id_categoria;
+        $_sql .= "and (a.elenco_status in ('S','E'))";
         $reg = DB::select($_sql);
         //return dd($reg);
         return $reg;
